@@ -96,23 +96,13 @@ content:
     content:
       - layout: top-right
         title: Suwon University
-        sub_title: Master of Computer Science
-        caption: 2000 - 2002
+        sub_title: Master and Bachelor of Computer Science
+        caption: 1993 - 2002
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-      - layout: top-right
-        title: Suwon University
-        sub_title: Bachelor of Computer Science
-        caption: 1993 - 2000
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-      - layout: top-right
-        title: Seoul Highschool
-        caption: 1990 - 1993
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
