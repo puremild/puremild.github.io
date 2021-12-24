@@ -86,8 +86,6 @@ content:
         sub_title: 서버 개발자, 프로젝트 리더
         caption: 2006.06 - present
         link: http://telcoware.com/
-        quote: >
-          서버 개발자, 프로젝트 리더
         description: | # this will include new lines to allow paragraphs
           - 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
           - PostgreSQL 성능 튜닝 및 장애 대응
@@ -98,8 +96,6 @@ content:
         sub_title: 서버 개발자
         caption: 2002.07 - 2006.06
         link: http://www.dinnovan.com/
-        quote: >
-          서버 개발자, 프로젝트 리더
         description: | # this will include new lines to allow paragraphs
           - 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
           - PostgreSQL 성능 튜닝 및 장애 대응
@@ -109,8 +105,6 @@ content:
       - title: AGT
         sub_title: 게임로직 개발자
         caption: 2001.07 - 2002.05
-        quote: >
-          서버 개발자, 프로젝트 리더
         description: | # this will include new lines to allow paragraphs
           - 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
           - PostgreSQL 성능 튜닝 및 장애 대응
