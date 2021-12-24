@@ -102,6 +102,7 @@ content:
           - C/C++
           - Golang
           - Python
+          - SQL
           - Javascript
           - shell script
       - title: Frameworks/Solutions
@@ -113,7 +114,7 @@ content:
             - Oracle
             - Altibase
             - MongoDB
-          - DevOps
+          - Cloud
             - Kubernetes
             - Istio/Envoy
             - Nats
@@ -126,11 +127,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           - HTML, CSS
           - HTTP/1.x, HTTP/2
-          - SIP
-          - SDP
-          - Diameter
+          - SIP, SDP, Diameter
           - TCP, UDP, SCTP
           - ETSI NFV, 3GPP 5GC(~Rel.16)
+          - IP Networking, ARP, ICMP
   - title: Education
     layout: list
     content:
