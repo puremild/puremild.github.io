@@ -82,11 +82,25 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - title: 텔코웨어
+        sub_title: 서버 개발자, 프로젝트 리더
+        caption: 2006.06 - present
+        link: http://telcoware.com/
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - title: 디노밴
+        sub_title: 서버 개발자
+        caption: 2002.07 - 2006.06
+        link: http://www.dinnovan.com/
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+      - title: AGT
+        sub_title: 게임로직 개발자
+        caption: 2001.07 - 2002.05
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
@@ -110,33 +124,26 @@ content:
           - OS
             - Linux/Unix(Red hat, CentOS, HP-UX, Solaris, etc)
           - Database
-            - MariaDB/Mysql
-            - MongoDB
-            - Oracle
-            - Altibase
+            - MariaDB/Mysql, MongoDB, Oracle, Altibase
           - Cloud
             - Kubernetes(Admission Control, Operator Pattern)
-            - Istio/Envoy(Custom Filter)
-            - Nats
+            - Istio/Envoy(Custom Filter), Nats, Harbor
             - Openstack
-            - Harbor
           - Version Control
-            - Git
-            - Subversion
-            - CVS
+            - Git, Subversion, CVS
           - Miscellaneous
-            - Flask, Apache HTTP Server
             - Make/CMake
+            - Flask, Apache HTTP Server
             - Node.js
             - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
-          - HTML, CSS
-          - HTTP/1.x, HTTP/2
-          - SIP, SDP, Diameter
           - TCP, UDP, SCTP
           - ETSI NFV, 3GPP 5GC(~Rel.16)
           - IP Networking, ARP, ICMP
+          - SIP, SDP, Diameter
+          - HTTP/1.x, HTTP/2
+          - HTML, CSS
   - title: Education
     layout: list
     content:
