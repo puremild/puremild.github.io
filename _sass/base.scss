@@ -13,7 +13,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Gowun+Dodum", "Roboto", "Arial", sans-serif;
   font-size: 1rem;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
@@ -47,7 +47,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", "Gowun+Dodum", "Roboto", "Arial", sans-serif;
   font-size: 1rem; }
 
 label {
@@ -150,7 +150,7 @@ html {
 
 body {
   background: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: "Gowun+Dodum", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased; }
 
 .center-text {
