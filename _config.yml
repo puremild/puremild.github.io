@@ -13,25 +13,25 @@ email_title: email
 #phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
 website: https://podomat.github.io
-website_title: Blog
+website_title: blog
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+#twitter_username: jekyllrb
+github_username:  podomat
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
@@ -94,10 +94,21 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-middle
         title: Suwon University
         sub_title: Master and Bachelor of Computer Science
         caption: 1993 - 2002
+
+        link: https://sproogen.github.io/modern-resume-theme
+        link_text: Text for link
+        additional_links:
+          - title: additional_link_1
+            icon: fab fa-twitter
+            url: https://google.com
+        quote: >
+          Short overview or quote for the item <-- quote
+        description: | # this will include new lines to allow paragraphs
+          Main content area for the list item. <-- description
 
   - title: A Little More About Me
     layout: text
