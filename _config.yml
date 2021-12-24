@@ -98,18 +98,9 @@ content:
         title: Suwon University
         sub_title: Master and Bachelor of Computer Science
         caption: 1993 - 2002
-
-        link: https://sproogen.github.io/modern-resume-theme
-        link_text: Text for link
-        additional_links:
-          - title: additional_link_1
-            icon: fab fa-twitter
-            url: https://google.com
-        quote: >
-          Short overview or quote for the item <-- quote
-        description: | # this will include new lines to allow paragraphs
-          Main content area for the list item. <-- description
-
+      - layout: top-middle
+        title: Seoul Highschool
+        caption: 1990 - 1993
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
