@@ -100,11 +100,11 @@ content:
       - title: Languages
         description: | # this will include new lines to allow paragraphs
           - C/C++
-          - Golang
+          - Go
           - Python
           - SQL
           - Javascript
-          - shell script
+          - Shell script
       - title: Frameworks/Solutions
         description: | # this will include new lines to allow paragraphs
           - OS
@@ -127,6 +127,7 @@ content:
           - Miscellaneous
             - Flask, Apache HTTP Server
             - Make/CMake
+            - Node.js
             - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
