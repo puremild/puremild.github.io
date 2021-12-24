@@ -106,9 +106,14 @@ content:
           - shell script
       - title: Frameworks/Solutions
         description: | # this will include new lines to allow paragraphs
-          - OS       : Linux/Unix(Red hat, Centos, HP-UX, Solaris, etc)
-          - Database : MariaDB/Mysql, Oracle, Altibase, MongoDB
-      - title: Protocol/Specifications
+          - OS              : Linux/Unix(Red hat, Centos, HP-UX, Solaris, etc)
+          - Database        : MariaDB/Mysql, Oracle, Altibase, MongoDB
+          - DevOps          : Kubernetes, Istio/Envoy, Nats, Openstack
+          - Version Control:
+            - Git
+            - Subversion
+            - CVS
+      - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
           - HTML, CSS
           - HTTP/1.x, HTTP/2
