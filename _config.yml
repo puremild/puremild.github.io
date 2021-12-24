@@ -119,6 +119,7 @@ content:
             - Istio/Envoy(Custom Filter)
             - Nats
             - Openstack
+            - Harbor
           - Version Control
             - Git
             - Subversion
@@ -126,6 +127,7 @@ content:
           - Miscellaneous
             - Flask, Apache HTTP Server
             - Make/CMake
+            - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
           - HTML, CSS
