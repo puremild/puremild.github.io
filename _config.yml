@@ -89,7 +89,7 @@ content:
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          서버 개발자, 프로젝트 리더
       - title: 디노밴
         sub_title: 서버 개발자
         caption: 2002.07 - 2006.06
@@ -97,14 +97,14 @@ content:
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          서버 개발자
       - title: AGT
         sub_title: 게임로직 개발자
         caption: 2001.07 - 2002.05
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          게임로직 개발자
   - title: Skills
     layout: list
     content:
