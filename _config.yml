@@ -108,21 +108,24 @@ content:
       - title: Frameworks/Solutions
         description: | # this will include new lines to allow paragraphs
           - OS
-            - Linux/Unix(Red hat, Centos, HP-UX, Solaris, etc)
+            - Linux/Unix(Red hat, CentOS, HP-UX, Solaris, etc)
           - Database
             - MariaDB/Mysql
+            - MongoDB
             - Oracle
             - Altibase
-            - MongoDB
           - Cloud
-            - Kubernetes
-            - Istio/Envoy
+            - Kubernetes(Admission Control, Operator Pattern)
+            - Istio/Envoy(Custom Filter)
             - Nats
             - Openstack
           - Version Control
             - Git
             - Subversion
             - CVS
+          - Miscellaneous
+            - Flask, Apache HTTP Server
+            - Make/CMake
       - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
           - HTML, CSS
