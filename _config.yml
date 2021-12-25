@@ -132,7 +132,7 @@ content:
           - Database
             - MariaDB/Mysql, MongoDB, Oracle, Altibase
           - Cloud
-            - Kubernetes, Docker
+            - Kubernetes, Docker, Helm
             - Istio/Envoy, Nats, Harbor
             - Openstack
           - Version Control
