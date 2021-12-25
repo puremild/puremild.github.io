@@ -132,8 +132,8 @@ content:
           - Database
             - MariaDB/Mysql, MongoDB, Oracle, Altibase
           - Cloud
-            - Kubernetes(Admission Control, Operator Pattern)
-            - Docker, Istio/Envoy(Custom Filter), Nats, Harbor
+            - Kubernetes, Docker
+            - Istio/Envoy, Nats, Harbor
             - Openstack
           - Version Control
             - Git, Subversion, CVS
