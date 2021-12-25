@@ -133,7 +133,7 @@ content:
             - MariaDB/Mysql, MongoDB, Oracle, Altibase
           - Cloud
             - Kubernetes(Admission Control, Operator Pattern)
-            - Istio/Envoy(Custom Filter), Nats, Harbor
+            - Docker, Istio/Envoy(Custom Filter), Nats, Harbor
             - Openstack
           - Version Control
             - Git, Subversion, CVS
@@ -144,9 +144,8 @@ content:
             - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: | # this will include new lines to allow paragraphs
-          - TCP, UDP, SCTP
           - ETSI NFV, 3GPP 5GC(~Rel.16)
-          - IP Networking, ARP, ICMP
+          - TCP, UDP, SCTP, IP Networking
           - SIP, SDP, Diameter
           - HTTP/1.x, HTTP/2
           - HTML, CSS
