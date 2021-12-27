@@ -84,7 +84,7 @@ content:
     content:
       - title: 텔코웨어
         sub_title: 서버 개발자, 프로젝트 리더
-        caption: 2006.06 - present
+        caption: 2007.06 - present
         link: http://telcoware.com/
         description: | # this will include new lines to allow paragraphs
           - 동사는 이동통신서비스를 위한 Core network 분야에서 다양한 솔루션을 개발하고 있음
@@ -92,9 +92,10 @@ content:
           - ETSI, 3GPP, RFC 등의 표준 규격을 연구하여 이를 기반으로 하는 서비스 시스템 설계하고
           - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발 수행하면서
           - 높은 KPI달성으로 연말평가에서 우수사원 2회 수상
+          - 치명적인 버그 및 구조적 이슈로 인해 서비스 오픈이 지연된 프로젝트에 긴급투입되어 문제를 해결하고 상용 오픈 완료 2회
       - title: 디노밴
         sub_title: 서버 개발자
-        caption: 2002.07 - 2006.06
+        caption: 2002.07 - 2007.06
         link: http://www.dinnovan.com/
         description: | # this will include new lines to allow paragraphs
           - 사내 모니터링 & 알람 도입 (APM / CloudWatch & Lambda)
