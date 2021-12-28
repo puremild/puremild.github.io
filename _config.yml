@@ -107,7 +107,8 @@ content:
         sub_title: 게임로직 개발자
         caption: 2001.07 - 2002.05
         description: | # this will include new lines to allow paragraphs
-          - 네트워크 보드게임(포커, 오목, 오셀로)의 승패판단 로직 개발
+          - 동사는 멀티 모니터를 이용한 전시영상 시스템 개발을 목표로 설립되었으며 네트워크 게임 또한 개발하였음
+          - 네트워크 보드게임(포커, 오목, 오셀로 등)의 승패판단 로직 개발
           - 멀티 모니터 제어를 위한 C/S 통신 모듈 개발
           - 터치 스크린용 화상 키보드 개발
   - title: Skills
