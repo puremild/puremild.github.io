@@ -66,6 +66,8 @@ content:
     content:
       - layout: left
         title: 3GPP 5GC SCP
+        link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
+        link_text: The service communication proxy
         caption: 2021.01 - present
         description: | # this will include new lines to allow paragraphs
           - <span style="font-weight:bold">목표:</span> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
