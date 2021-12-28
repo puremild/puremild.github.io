@@ -65,19 +65,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: SCP
-        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: 2021.01 ~ present
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: naver.com
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: daum.net
-        quote: >
-          5G core network SCP/NRF function 개발
+        title: 5G SCP(Service Communication Proxy)
         description: | # this will include new lines to allow paragraphs
+          - 5G core network SCP/NRF function 개발
           - SW 설계
           - Kubernetes Operator 및 Admission controller 개발 (Linux, Golang, Kubernetes)
           - 5G release 15 NF를 위한 NRF 서비스 개발 (Linux, Golang, MariaDB, Istio/Envoyproxy, NATS)
