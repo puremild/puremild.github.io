@@ -78,6 +78,8 @@ content:
       - layout: left
         title: ETSI/3GPP NFV-MANO
         caption: 2014.01 - 2020.12
+        link: https://www.etsi.org/deliver/etsi_gs/nfv-man/001_099/001/01.01.01_60/gs_nfv-man001v010101p.pdf
+        link_text: ETSI GS NFV-MAN 001 v1.1.1
         description: | # this will include new lines to allow paragraphs
           - <span style="font-weight:bold">목표:</span> 5G core network의 Service Communication Proxy(SCP) 및 Network Repository Function(NRF) 시스템 구축
           - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계함
