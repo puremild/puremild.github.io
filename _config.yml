@@ -65,9 +65,10 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 5G SCP(Service Communication Proxy)
+        title: 5G SCP
+        sub_title: 2021.01 ~ present
         description: | # this will include new lines to allow paragraphs
-          - 5G core network SCP/NRF function 개발
+          - 5G core network SCP(Service Communication Proxy) 및 NRF(Network Repository Function) 개발
           - SW 설계
           - Kubernetes Operator 및 Admission controller 개발 (Linux, Golang, Kubernetes)
           - 5G release 15 NF를 위한 NRF 서비스 개발 (Linux, Golang, MariaDB, Istio/Envoyproxy, NATS)
