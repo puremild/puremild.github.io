@@ -68,10 +68,11 @@ content:
         title: 5G SCP
         caption: 2021.01 ~ present
         description: | # this will include new lines to allow paragraphs
-          - <span style="font-weight:bold">개요</span>: 5G core network의 Service Communication Proxy(SCP) 및 Network Repository Function(NRF) 개발
-          - Container 및 Micro-Service Architecture에 기반하여 시스템 구조를 설계함
-          - Kubernetes Operator 및 Admission controller 개발 (Linux, Golang, Kubernetes)
-          - 5G release 15 NF를 위한 NRF 서비스 개발 (Linux, Golang, MariaDB, Istio/Envoyproxy, NATS)
+          - <span style="font-weight:bold">목표:</span> 5G core network의 Service Communication Proxy(SCP) 및 Network Repository Function(NRF) 시스템 구축
+          - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계함
+          - Kubernetes의 Custom Resource 형태로 deploy 하기 위한 K8s Operator 개발함
+          - Network Function의 deploy 시 sidecar injection 및 label 설정을 위한 Mutating Admission Controller 개발함
+          - 3GPP 5GC release 15 Network Function들에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능을 개발함
   - title: Experience
     layout: list
     content:
