@@ -71,10 +71,10 @@ content:
         caption: 2021.01 - present
         description: | # this will include new lines to allow paragraphs
           - <span style="font-weight:bold">목표:</span> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
-          - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계함
-          - Kubernetes의 Custom Resource 형태로 deploy 하기 위한 K8s Operator 개발함
-          - Network Function의 deploy 시 sidecar injection 및 label 설정을 위한 Mutating Admission Controller 개발함
-          - 3GPP 5GC release 15 Network Function들에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능을 개발함
+          - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계
+          - SCP 시스템을 Custom Resource 형태로 Kubernetes에 deploy 하는 K8s Operator를 개발
+          - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 Mutating Admission Controller 개발
+          - Release-15 Network Function들에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
       - layout: left
         title: ETSI/3GPP NFV-MANO
         caption: 2014.01 - 2020.12
