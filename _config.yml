@@ -81,7 +81,7 @@ content:
         link: https://www.etsi.org/deliver/etsi_gs/nfv-man/001_099/001/01.01.01_60/gs_nfv-man001v010101p.pdf
         link_text: ETSI GS NFV-MAN 001 v1.1.1
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> ETSI NFV(Network Function Virtualization)를 위한 관리(Management and Orchestration) 시스템 구축
+          - <span class="proj-info">개요:</span> [ETSI NFV(Network Function Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 관리(MANagement and Orchestration) 시스템 구축
           - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계함
           - Kubernetes의 Custom Resource 형태로 deploy 하기 위한 K8s Operator 개발함
           - Network Function의 deploy 시 sidecar injection 및 label 설정을 위한 Mutating Admission Controller 개발함
