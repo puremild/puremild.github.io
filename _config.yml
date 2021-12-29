@@ -71,21 +71,22 @@ content:
         caption: 2021.01 - present
         description: | # this will include new lines to allow paragraphs
           - <span class="proj-info">개요:</span> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
-          - Container 및 Micro-Service Architecture에 기반하여 전체 시스템 구조를 설계
-          - SCP 시스템을 Custom Resource 형태로 Kubernetes에 deploy 하는 K8s Operator를 개발
-          - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 Mutating Admission Controller 개발
-          - Release-15 Network Function들에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
+          - Container 및 Micro-Service Architecture를 기반으로 전체 시스템 구조를 설계
+          - SCP 시스템을 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 deploy 하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
+          - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
+          - Release-15 Network Function에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
       - layout: left
-        title: ETSI/3GPP NFV-MANO
+        title: ETSI NFV-MANO
         caption: 2014.01 - 2020.12
         link: https://www.etsi.org/deliver/etsi_gs/nfv-man/001_099/001/01.01.01_60/gs_nfv-man001v010101p.pdf
         link_text: ETSI GS NFV-MAN 001 v1.1.1
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> [ETSI NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 오케스트레이션(MANagement and Orchestration) 시스템 구축
-          - Architecture 설계
-          - Openstack 연동 기능 개발
-          - VNF Lifecycle Management 기능 개발
-          - CUI/GUI 툴 개발
+          - <span class="proj-info">개요:</span> [NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 배포 관리(MANagement and Orchestration) 시스템 구축
+          - [Openstack](https://www.openstack.org/)과 [Zabbix](https://www.zabbix.com/)를 기반으로 전체 시스템 Architecture 설계
+          - Openstack 인증([Keystone](https://www.openstack.org/software/releases/xena/components/keystone)), Compute([Nova](https://www.openstack.org/software/releases/xena/components/nova)), Networking([Neutron](https://www.openstack.org/software/releases/xena/components/neutron)) 모듈 연동 기능 개발
+          - VNF의 Instantiate, Scale, Terminate 등을 비롯한 다양한 Lifecycle Management Operation 기능 개발
+          - VNF Package와 VNF Descriptor 에 대한 규격 정의하고 규격서를 작성하여 vendor사에 배포
+          - 단위 기능 시험 및 성능 시험용 CUI/GUI 툴 개발
       - layout: left
         title: 3GPP/OMA RCS
         caption: 2021.01 - present
