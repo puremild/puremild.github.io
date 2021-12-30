@@ -193,13 +193,13 @@ content:
           - <mark>개요</mark> 다수의 디스플레이를 네트웍으로 연결하여 단일 디스플레이처럼 보여주는 대형 전시 영상 시스템 개발
           - 멀티모니터에 대한 출력 및 이벤트 수신을 위한 클라이언트/서버 통신 모듈 개발
       - layout: left
-        title: 화상키보드 개발
+        title: 화상키보드
         caption: 2001.09 - 2001.10
         description: |
           - <mark>개요</mark> 의료장비를 위한 터치스크린用 화상키보드 개발
           - 1인 프로젝트로 설계, 디자인, 개발 진행.
       - layout: left
-        title: 캐주얼 게임 개발
+        title: WEB용 캐주얼 게임
         caption: 2001.07 - 2001.12
         description: |
           - <mark>개요</mark> 모 포털사이트에서 플레이 할 수 있는 캐주얼 게임 개발
