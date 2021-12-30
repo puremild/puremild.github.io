@@ -65,7 +65,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: <mark>3GPP 5GC SCP</mark>
+        title: **3GPP 5GC SCP**
         link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
         link_text: The service communication proxy
         caption: 2021.01 - present
