@@ -174,7 +174,7 @@ content:
           - H/W 모니터링 프로세스 설계 및 개발
           - DB 제어 모듈 개발
       - layout: left
-        title: VBGI ( Voice Board General Interface )
+        title: Voice Board General Interface
         caption: 2003.10 - 2004.04
         description: | 
           - <mark>개요</mark> Conference Call 등 전화 서비스를 위한 음성합성(mixing) 서비스 시스템 개발
