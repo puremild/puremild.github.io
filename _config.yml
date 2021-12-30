@@ -116,10 +116,10 @@ content:
           - 위 tool을 통해 각 서비스 시나리오별 성능 bottleneck을 찾아 report 함으로써 부족했던 성능 시험 기준 통과
           - 기능 및 성능에 대한 인수시험을 완료하고 이후 협력사간 이슈를 조정하며 시스템 유지보수 수행
       - layout: left
-        title: 기업용 UC
+        title: BizUC-AS
         caption: 2011.01 - 2016.06
         description: |
-          - <mark>개요</mark> IMS 기반 기업용 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
+          - <mark>개요</mark> 기업 고객들을 유치할 수 있는 IMS기반 기업 tenant형 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
           - 시스템 고도화 및 유지 보수
       - layout: left
         title: CGVRS ( Carrier Grade Voice Recording System )
