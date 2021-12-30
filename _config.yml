@@ -112,14 +112,14 @@ content:
         description: |
           - <mark>개요</mark> 유선통신 사업자의 legacy PSTN 시스템을 대체할 IMS 시스템 구축
           - [3GPP IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 표준 규격 및 고객 요구사항을 분석하고 표준 architecture에 부합하도록 서비스 구조 설계
-          - 컨소시엄 구조의 시스템에 대해 전체 서비스 측면의 성능시험 tool을 제작하였고
+          - 협력사간 컨소시엄 구조의 시스템에 대해 전체 서비스 측면의 성능시험 tool을 제작하였고
           - 위 tool을 통해 각 서비스 시나리오별 성능 bottleneck을 찾아 report 함으로써 부족했던 성능 시험 기준 통과
           - 기능 및 성능에 대한 인수시험을 완료하고 이후 협력사간 이슈를 조정하며 시스템 유지보수 수행
       - layout: left
-        title: BizUC-AS
+        title: 기업용 UC
         caption: 2011.01 - 2016.06
         description: |
-          - <mark>개요</mark> 기업용 UC(Unified Communication) 서비스 시스템
+          - <mark>개요</mark> IMS 기반 기업용 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
           - 시스템 고도화 및 유지 보수
       - layout: left
         title: CGVRS ( Carrier Grade Voice Recording System )
@@ -214,7 +214,7 @@ content:
         link: http://telcoware.com/
         description: |
           - 동사는 이동통신서비스를 위한 CN(Core Network) 분야에서 다양한 솔루션을 개발하고 있음
-          - <mark>10개 이상</mark>의 솔루션 개발에서 프로젝트 리더로써 참여하여 GA 버전 개발 및 상용화 완료
+          - <mark>10개 이상</mark>의 솔루션 개발에서 프로젝트 리더로써 참여하여 **GA 버전 개발 및 상용화** 완료
           - 프로젝트 시작 단계에서 고객사와 미팅을 통해 니즈를 분석하여 요구사항을 정리하고
           - ETSI, 3GPP, RFC 등의 표준 규격을 연구하고 이를 기반으로 서비스 시스템 architecture를 설계하여 솔루션 제안
           - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발을 수행, 높은 KPI달성으로 연말평가에서 <mark>우수사원</mark> 2회 수상
