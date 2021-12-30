@@ -93,33 +93,36 @@ content:
         link_text: Rich Communication Services
         caption: 2013.01 - 2013.12
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 단말 제조사 및 서비스 사업자와 관계없는 IMS 기반 통합 메세징(Joyn) 시스템 구축
+          - <mark>개요:</mark> 단말 제조사 및 서비스 사업자와 관계없는 IMS 기반 통합 메세징(Joyn) 시스템 구축
           - SIP 프로토콜로 Instant message를 수신하여 저장하고
           - Presence Service와 연동하여 저장된 데이터를 전송하는 모듈 개발
       - layout: left
-        title: NEAT 자동 채점 시스템
+        title: NEAT 자동채점 시스템
         caption: 2012.04 - 2013.01
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> NLP와 ML을 기반으로 NEAT(국가영어능력 평가시험) 자동 채점 시스템 개발
-          - Natural language processing 및 Machine learning 시스템 설계 및 개발
+          - <mark>개요:</mark> NLP와 ML을 기반으로 NEAT(국가영어능력 평가시험) 자동채점 시스템 개발
+          - Machine learning 기반 Natural language processing 시스템 설계 및 개발
           - legacy 시스템 모듈화
       - layout: left
-        title: IMS
+        title: 3GPP IMS
         caption: 2013.08 - 2014.08
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 통신 사업자 PSTN 망 대개체
-          - 시스템 고도화 및 유지 보수
+          - <mark>개요:</mark> 유선통신 사업자의 legacy PSTN 시스템을 대개체할 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 시스템 구축
+          - 3GPP IMS 표준 규격 및 고객 요구사항을 분석하고 여기에 맞도록 서비스 구조 설계
+          - 컨소시엄 구조의 시스템에 대해 전체 서비스 측면의 성능시험 tool을 제작하였고
+          - 위 tool을 통해 각 서비스 시나리오별 성능 bottle neck을 찾아 report 함으로써 부족했던 성능 시험 기준 통과
+          - 기능 및 성능에 대한 인수시험을 완료하고 이후 협력사간 이슈를 조정하며 시스템 유지보수 수행
       - layout: left
         title: BizUC-AS
         caption: 2011.01 - 2016.06
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 기업용 UC(Unified Communication) 서비스 시스템
+          - <mark>개요:</mark> 기업용 UC(Unified Communication) 서비스 시스템
           - 시스템 고도화 및 유지 보수
       - layout: left
         title: CGVRS ( Carrier Grade Voice Recording System )
         caption: 2007.08 - 2012.12
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> Call Center 통화 녹음 및 관리 시스템
+          - <mark>개요:</mark> Call Center 통화 녹음 및 관리 시스템
           - RTP packet capturing, IP encapsulation, 대용량 file I/O 개발
           - 네트웍 인터페이스 이중화 설계 및 개발
           - Multicast를 위한 IGMP interface process 개발 
@@ -128,33 +131,33 @@ content:
         title: C4SSW ( Class 4 SoftSwitch )
         caption: 2010.05 - 2010.09
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> IP기반 중개 호 처리 시스템
+          - <mark>개요:</mark> IP기반 중개 호 처리 시스템
           - SIP stack interface process 개발
       - layout: left
         title: MGCF/MG ( Media Gateway Control Function/Media Gateway )
         caption: 2008.08 - 2010.04
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 이종망 간 미디어 (변환) 게이트웨이 시스템
+          - <mark>개요:</mark> 이종망 간 미디어 (변환) 게이트웨이 시스템
           - SIP stack interface process 개발
           - Service 처리 logic process 개발
       - layout: left
         title: MRF ( Multimedia Resource Function )
         caption: 2007.07 - 2009.12
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> IMS망에 안내방송, 회의통화 등 미디어 서비스 제공 시스템
+          - <mark>개요:</mark> IMS망에 안내방송, 회의통화 등 미디어 서비스 제공 시스템
           - SIP stack interface process 개발
           - Service 처리 logic process 개발
       - layout: left
         title: DCD ( Dynamic Contents Delivery )
         caption: 2007.08 - 2007.10
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 단말 메시지 Push 서비스 시스템
+          - <mark>개요:</mark> 단말 메시지 Push 서비스 시스템
           - GIP 스택 및 interface process 개발
       - layout: left
         title: ISMC ( Intergrated Short Message Center )
         caption: 2005.09 - 2007.03
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> SMS 저장 및 전달 시스템
+          - <mark>개요:</mark> SMS 저장 및 전달 시스템
           - 서비스 메인 제어부 설계 및 개발
           - 각종 외부 시스템 연동 프로토콜 및 인터페이스 설계, 개발
           - DB 설계 및 제어 모듈 개발
@@ -162,7 +165,7 @@ content:
         title: ISN ( Intelligence Service Node )
         caption: 2004.12 - 2007.03
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> ARS 서비스 시나리오 개발 시스템
+          - <mark>개요:</mark> ARS 서비스 시나리오 개발 시스템
           - ARS 서비스 시나리오 실행 환경 설계 및 개발
           - 각종 서비스 시나리오 개발 ( 회의통화, 영어학습, 웹투폰 등 )
           - H/W 모니터링 프로세스 설계 및 개발
@@ -171,32 +174,32 @@ content:
         title: VBGI ( Voice Board General Interface )
         caption: 2003.10 - 2004.04
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 회의통화 등을 위한 음성 합성(mixing) 서비스 시스템
+          - <mark>개요:</mark> 회의통화 등을 위한 음성 합성(mixing) 서비스 시스템
           - NMS 음성보드 General Interface 프로세스 설계 및 구현
       - layout: left
         title: 지능형 부가장치 ( Intelligence Peripheral )
         caption: 2003.01 - 2003.06
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 통신망 가입자 부가 서비스 제공 시스템
+          - <mark>개요:</mark> 통신망 가입자 부가 서비스 제공 시스템
           - 네트웍 인터페이스 세부 설계 및 개발
           - ASR, TTS Server 세부 설계 및 개발
       - layout: left
         title: 멀티모니터 전시영상 시스템 개발
         caption: 2002.01 - 2002.05
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 다수의 디스플레이를 연결하여 구축한 대형 전시 영상 시스템
+          - <mark>개요:</mark> 다수의 디스플레이를 연결하여 구축한 대형 전시 영상 시스템
           - 멀티모니터 제어를 위한 클라이언트/서버 시스템 개발
       - layout: left
         title: 화상키보드 개발
         caption: 2001.09 - 2001.10
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 화상 키보드 프로그램
+          - <mark>개요:</mark> 화상 키보드 프로그램
           - 의료장비를 위한 터치스크린用 화상키보드 개발
       - layout: left
         title: 포털사이트 “참게임” 개발
         caption: 2001.07 - 2001.12
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 인터넷을 통한 캐주얼 게임
+          - <mark>개요:</mark> 인터넷을 통한 캐주얼 게임
           - 네트워크 게임을 위한 게임방 및 채팅 시스템 개발
           - 네트워크 게임(포커, 오목, 오셀로)에 관한 로직 개발
   - title: Experience
