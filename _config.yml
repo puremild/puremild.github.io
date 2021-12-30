@@ -94,8 +94,8 @@ content:
         caption: 2013.01 - 2013.12
         description: |
           - <mark>개요</mark> 이동통신 단말 제조사 및 서비스 사업자와 관계없는 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 기반 통합 메세징([Joyn](https://www.gsma.com/futurenetworks/wp-content/uploads/2013/01/SK-Telecom_Launches-Next-Generation-Integrated-Communication-Service-Named-joyn.T_final2-Press-Release.pdf)) 시스템 구축
-          - 서비스 오픈을 목전에 두고 메인 프로세스가 지속적으로 크러쉬 발생하여 타팀이었으나 긴급 투입
-          - SIP 프로토콜로 Instant message를 수신하여 저장하고 Presence Service와 연동하여 저장된 데이터를 전송하는 모듈에 버그를 찾아 수정하여 서비스 오픈 성공
+          - 서비스 오픈을 목전에 두고 메인 프로세스에 지속적으로 크러쉬가 발생하여 他팀 프로젝트였으나 긴급 투입
+          - SIP 프로토콜로 Instant message를 수신하여 저장하고 Presence Service와 연동하여 메시지를 타겟에 전송하는 모듈에 메모리 관리 버그를 찾아 수정하여 서비스 오픈 성공
           - 이후 해당 모듈의 추가적인 기능 개발 및 maintenance 수행
       - layout: left
         title: NEAT 자동채점 시스템
