@@ -70,7 +70,7 @@ content:
         link_text: The service communication proxy
         caption: 2021.01 - present
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
+          - <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
           - Container 및 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
           - SCP 시스템을 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 deploy 하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
           - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
@@ -81,7 +81,7 @@ content:
         link: https://www.etsi.org/deliver/etsi_gs/nfv-man/001_099/001/01.01.01_60/gs_nfv-man001v010101p.pdf
         link_text: ETSI GS NFV-MAN 001 v1.1.1
         description: | # this will include new lines to allow paragraphs
-          - <span class="proj-info">개요:</span> [NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 배포 관리(MANagement and Orchestration) 시스템 구축
+          - <mark>개요</mark> [NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 배포 관리(MANagement and Orchestration) 시스템 구축
           - [Openstack](https://www.openstack.org/)과 [Zabbix](https://www.zabbix.com/)를 기반으로 전체 시스템 Architecture 설계
           - Openstack 제어를 위한 인증([Keystone](https://www.openstack.org/software/releases/xena/components/keystone)), Compute([Nova](https://www.openstack.org/software/releases/xena/components/nova)), Networking([Neutron](https://www.openstack.org/software/releases/xena/components/neutron)) 프로젝트 연동을 위한 API 개발
           - VNF의 Instantiate, Scale, Terminate 등을 비롯한 다양한 Lifecycle Management Operation 기능 개발
@@ -93,9 +93,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <span class="proj-info">개요:</span> 통신 사업자 통합 메신저(Joyn) 서비스 시스템 구축
           - SMS 메시지 저장 및 전달 모듈 개발
-          - *별하나*
-          - **별 두개**
-          - <mark>마크 였나...!?</mark>
   - title: Experience
     layout: list
     content:
