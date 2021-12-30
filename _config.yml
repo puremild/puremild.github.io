@@ -71,7 +71,7 @@ content:
         caption: 2021.01 - present
         description: | # this will include new lines to allow paragraphs
           - <span class="proj-info">개요:</span> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
-          - Container 및 Micro-Service Architecture를 기반으로 전체 시스템 구조를 설계
+          - Container 및 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
           - SCP 시스템을 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 deploy 하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
           - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
           - Release-15 Network Function에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
@@ -93,6 +93,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           - <span class="proj-info">개요:</span> 통신 사업자 통합 메신저(Joyn) 서비스 시스템 구축
           - SMS 메시지 저장 및 전달 모듈 개발
+          - *별하나*
+          - **별 두개**
   - title: Experience
     layout: list
     content:
