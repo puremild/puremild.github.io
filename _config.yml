@@ -66,7 +66,7 @@ content:
     content:
       - layout: top-middle
         #title: Company name
-        sub_title: 업무용 경험했던 것들입니다.
+        sub_title: 업무용으로 사용했던 것들입니다.
       - title: Languages
         description: |
           - C/C++
@@ -96,27 +96,12 @@ content:
           - TCP, UDP, SCTP, IP Networking
           - SIP, SDP, Diameter, RTP/RTCP
           - HTTP/1.x, HTTP/2
-      - layout: top-middle
-        #title: Company name
-        sub_title: 개인적인 관심으로 공부했던 것들입니다.
-      - title: Languages
-        description: |
-          - Java
-          - Javascript
-          - Kotlin
-      - title: Frameworks/Solutions
-        description: |
-          - Database
-            - MongoDB, InfluxDB
-          - Cloud
-          - Miscellaneous
-            - Node.js
-      - title: Protocols/Specifications
-        description: |
-          - HTML, CSS
+
   - title: Experience
     layout: list
     content:
+      - layout: top-middle
+        sub_title: 그동안 일해왔던 곳들입니다.
       - title: 텔코웨어
         sub_title: 서버 개발자, 프로젝트 리더
         caption: 2007.06 - present
@@ -150,6 +135,8 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        sub_title: 그동안 해왔던 일들입니다.
       - layout: left
         title: 3GPP 5GC SCP
         link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
