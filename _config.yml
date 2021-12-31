@@ -157,9 +157,9 @@ content:
           - <mark>개요</mark> 이동통신 가입자 단말을 대상으로 Dynamic [Contents Delivery](https://standards.ieee.org/standard/1903_1-2017.html) (Push message) 서비스 시스템 개발
           - GIP 프로토콜 스택 및 Interface process 개발
       - layout: left
-        title: ISMC ( Intergrated Short Message Center )
+        title: 유무선 통합 SMS Center
         caption: 2005.09 - 2007.03
-        description: |
+        description: | ISMC ( Intergrated Short Message Center )
           - <mark>개요</mark> SMS 저장 및 전달 시스템
           - 서비스 메인 제어부 설계 및 개발
           - 각종 외부 시스템 연동 프로토콜 및 인터페이스 설계, 개발
@@ -168,12 +168,11 @@ content:
         title: 지능망 Service Node
         caption: 2004.12 - 2007.03
         description: |
-          - <mark>개요</mark> 전화망 가입자에게 음성(voice) 서비스를 제공하는 지능망([Intelligent Network](https://en.wikipedia.org/wiki/Intelligent_Network)) Service Node 시스템 구축
-          - voice 서비스 시나리오를 작성하는 GUI tool 설계하고,
-          - 작성한 시나리오 파일을 업로드 및 로딩하여 실행하는 서비스 실행 환경 설계 및 개발
+          - <mark>개요</mark> 전화망 가입자에게 voice(음성) 서비스를 제공하는 지능망([Intelligent Network](https://en.wikipedia.org/wiki/Intelligent_Network)) Service Node 시스템 구축
+          - voice 서비스 시나리오를 작성하는 GUI tool과 이 tool의 output이 될 시나리오 파일 포맷을 설계하고,
+          - 작성한 시나리오 파일을 업로드 및 로딩하여 실행하는 'voice 시나리오 실행 환경' 시스템 설계 및 개발
           - 위 GUI tool을 사용하여 여러 voice 서비스 시나리오 개발 (회의통화, 영어학습, 웹투폰 등)
-          - H/W 모니터링 프로세스 설계 및 개발
-          - DB 제어 모듈 개발
+          - Red hat Linux와 Sun Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 사용률을 모니터링하여 통계 및 알람을 생성하는 기능 개발
       - layout: left
         title: Voice Board General Interface
         caption: 2003.10 - 2004.04
@@ -227,7 +226,7 @@ content:
         description: |
           - 동사는 유무선 통합 통신 및 메시징 솔루션을 개발하며 주력 제품은 Telephony A/S, Media Server, SMS Center 등이 있음
           - 하드웨어 음성보드를 제어하여 회의통화 및 안내방송 등의 음성(voice) 서비스를 구현할 수 있도록 하는 <mark>API</mark> 개발
-          - 매번 서비스 시나리오를 하드코딩하지 않기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
+          - 서비스 시나리오 hard coding을 탈피하기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
           - 이 tool로 만들어진 <mark>시나리오 파일을 로딩</mark>하여 voice 서비스를 제공하는 시스템 개발
           - Linux 및 Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
           - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
