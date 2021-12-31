@@ -172,7 +172,7 @@ content:
           - voice 서비스 시나리오를 작성하는 GUI tool과 이 tool의 output이 될 시나리오 파일 포맷을 설계하고,
           - 작성한 시나리오 파일을 업로드 및 로딩하여 실행하는 'voice 시나리오 실행 환경' 시스템 설계 및 개발
           - 위 GUI tool을 사용하여 여러 voice 서비스 시나리오 개발 (회의통화, 영어학습, 웹투폰 등)
-          - Red hat Linux와 Sun Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 사용률을 모니터링하여 통계 및 알람을 생성하는 기능 개발
+          - Red hat Linux와 Sun Solaris 시스템에 대한 CPU/Memory/Disc/Network 등의 H/W 사용률을 모니터링하여 통계 및 알람을 생성하는 기능 개발
       - layout: left
         title: Voice Board General Interface
         caption: 2003.10 - 2004.04
