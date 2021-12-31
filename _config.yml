@@ -61,6 +61,92 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+  - title: Skills
+    layout: list
+    content:
+      - layout: top-middle
+        #title: Company name
+        sub_title: 업무용 경험했던 것들입니다.
+      - title: Languages
+        description: |
+          - C/C++
+          - Go
+          - Python
+          - SQL
+          - Shell script
+      - title: Frameworks/Solutions
+        description: |
+          - OS
+            - Linux/Unix(Red hat, CentOS, HP-UX, Solaris, etc)
+          - Database
+            - MariaDB/Mysql, Oracle, Altibase
+          - Cloud
+            - Kubernetes, Docker, Helm
+            - Istio/Envoy, Nats, Harbor
+            - Openstack
+          - Version Control
+            - Git, Subversion, CVS
+          - Miscellaneous
+            - Make/CMake
+            - Flask, Apache HTTP Server
+            - Jira, Confluence, Bitbucket, Redmine
+      - title: Protocols/Specifications
+        description: |
+          - ETSI NFV, 3GPP 5GC(~Rel.16)
+          - TCP, UDP, SCTP, IP Networking
+          - SIP, SDP, Diameter, RTP/RTCP
+          - HTTP/1.x, HTTP/2
+      - layout: top-middle
+        #title: Company name
+        sub_title: 개인적인 관심으로 공부했던 것들입니다.
+      - title: Languages
+        description: |
+          - Java
+          - Javascript
+          - Kotlin
+      - title: Frameworks/Solutions
+        description: |
+          - Database
+            - MongoDB, InfluxDB
+          - Cloud
+          - Miscellaneous
+            - Node.js
+      - title: Protocols/Specifications
+        description: |
+          - HTML, CSS
+  - title: Experience
+    layout: list
+    content:
+      - title: 텔코웨어
+        sub_title: 서버 개발자, 프로젝트 리더
+        caption: 2007.06 - present
+        link: http://telcoware.com/
+        description: |
+          - 동사는 이동통신서비스를 위한 CN(Core Network) 분야에서 다양한 솔루션을 개발하고 있음
+          - <mark>10개 이상</mark>의 솔루션 개발에서 프로젝트 리더로써 참여하여 **GA 버전 개발 및 상용화** 완료
+          - 프로젝트 시작 단계에서 고객사와 미팅을 통해 니즈를 분석하여 요구사항을 정리하고
+          - ETSI, 3GPP, RFC 등의 표준 규격을 연구하고 이를 기반으로 서비스 시스템 architecture를 설계하여 솔루션 제안
+          - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발을 수행, 높은 KPI달성으로 연말평가에서 <mark>우수사원</mark> 2회 수상
+          - 치명적인 버그 및 구조적 이슈로 인해 오픈이 지연된 프로젝트에 긴급 투입되어 **문제를 해결하고 상용 오픈 완료** 경험 2회
+      - title: 디노밴
+        sub_title: 서버 개발자
+        caption: 2002.07 - 2007.06
+        link: http://www.dinnovan.com/
+        description: |
+          - 동사는 유무선 통합 통신 및 메시징 솔루션을 개발하며 주력 제품은 Telephony A/S, Media Server, SMS Center 등이 있음
+          - 하드웨어 음성보드를 제어하여 회의통화 및 안내방송 등의 음성(voice) 서비스를 구현할 수 있도록 하는 <mark>API</mark> 개발
+          - 서비스 시나리오 hard coding을 탈피하기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
+          - 이 tool로 만들어진 <mark>시나리오 파일을 로딩</mark>하여 voice 서비스를 제공하는 시스템 개발
+          - Linux 및 Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
+          - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
+      - title: AGT
+        sub_title: 게임로직 개발자
+        caption: 2001.07 - 2002.05
+        description: |
+          - 동사는 멀티 모니터를 이용한 전시영상 시스템 개발을 목표로 설립되었으며 네트워크 게임 또한 개발하였음
+          - 네트워크 보드게임(포커, 오목, 오셀로 등)의 승패판단 로직 개발
+          - 멀티 모니터 제어를 위한 C/S 통신 모듈 개발
+          - 터치 스크린용 화상 키보드 개발
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -205,92 +291,6 @@ content:
           - <mark>개요</mark> 모 포털사이트에서 플레이 할 수 있는 캐주얼 게임 개발
           - Network 게임을 위한 게임방 채팅 시스템 개발
           - Network 게임(포커, 오목, 오셀로)에 관한 승패 판단 로직 개발
-  - title: Experience
-    layout: list
-    content:
-      - title: 텔코웨어
-        sub_title: 서버 개발자, 프로젝트 리더
-        caption: 2007.06 - present
-        link: http://telcoware.com/
-        description: |
-          - 동사는 이동통신서비스를 위한 CN(Core Network) 분야에서 다양한 솔루션을 개발하고 있음
-          - <mark>10개 이상</mark>의 솔루션 개발에서 프로젝트 리더로써 참여하여 **GA 버전 개발 및 상용화** 완료
-          - 프로젝트 시작 단계에서 고객사와 미팅을 통해 니즈를 분석하여 요구사항을 정리하고
-          - ETSI, 3GPP, RFC 등의 표준 규격을 연구하고 이를 기반으로 서비스 시스템 architecture를 설계하여 솔루션 제안
-          - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발을 수행, 높은 KPI달성으로 연말평가에서 <mark>우수사원</mark> 2회 수상
-          - 치명적인 버그 및 구조적 이슈로 인해 오픈이 지연된 프로젝트에 긴급 투입되어 **문제를 해결하고 상용 오픈 완료** 경험 2회
-      - title: 디노밴
-        sub_title: 서버 개발자
-        caption: 2002.07 - 2007.06
-        link: http://www.dinnovan.com/
-        description: |
-          - 동사는 유무선 통합 통신 및 메시징 솔루션을 개발하며 주력 제품은 Telephony A/S, Media Server, SMS Center 등이 있음
-          - 하드웨어 음성보드를 제어하여 회의통화 및 안내방송 등의 음성(voice) 서비스를 구현할 수 있도록 하는 <mark>API</mark> 개발
-          - 서비스 시나리오 hard coding을 탈피하기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
-          - 이 tool로 만들어진 <mark>시나리오 파일을 로딩</mark>하여 voice 서비스를 제공하는 시스템 개발
-          - Linux 및 Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
-          - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
-      - title: AGT
-        sub_title: 게임로직 개발자
-        caption: 2001.07 - 2002.05
-        description: |
-          - 동사는 멀티 모니터를 이용한 전시영상 시스템 개발을 목표로 설립되었으며 네트워크 게임 또한 개발하였음
-          - 네트워크 보드게임(포커, 오목, 오셀로 등)의 승패판단 로직 개발
-          - 멀티 모니터 제어를 위한 C/S 통신 모듈 개발
-          - 터치 스크린용 화상 키보드 개발
-  - title: Skills
-    layout: list
-    content:
-      - layout: top-middle
-        #title: Company name
-        sub_title: 업무용 경험했던 것들입니다.
-      - title: Languages
-        description: |
-          - C/C++
-          - Go
-          - Python
-          - SQL
-          - Shell script
-      - title: Frameworks/Solutions
-        description: |
-          - OS
-            - Linux/Unix(Red hat, CentOS, HP-UX, Solaris, etc)
-          - Database
-            - MariaDB/Mysql, Oracle, Altibase
-          - Cloud
-            - Kubernetes, Docker, Helm
-            - Istio/Envoy, Nats, Harbor
-            - Openstack
-          - Version Control
-            - Git, Subversion, CVS
-          - Miscellaneous
-            - Make/CMake
-            - Flask, Apache HTTP Server
-            - Jira, Confluence, Bitbucket, Redmine
-      - title: Protocols/Specifications
-        description: |
-          - ETSI NFV, 3GPP 5GC(~Rel.16)
-          - TCP, UDP, SCTP, IP Networking
-          - SIP, SDP, Diameter, RTP/RTCP
-          - HTTP/1.x, HTTP/2
-      - layout: top-middle
-        #title: Company name
-        sub_title: 개인적인 관심으로 공부했던 것들입니다.
-      - title: Languages
-        description: |
-          - Java
-          - Javascript
-          - Kotlin
-      - title: Frameworks/Solutions
-        description: |
-          - Database
-            - MongoDB, InfluxDB
-          - Cloud
-          - Miscellaneous
-            - Node.js
-      - title: Protocols/Specifications
-        description: |
-          - HTML, CSS
   - title: Education
     layout: list
     content:
