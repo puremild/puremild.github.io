@@ -122,7 +122,7 @@ content:
           - 하드웨어 음성보드를 제어하여 회의통화 및 안내방송 등의 음성(voice) 서비스를 구현할 수 있도록 하는 <mark>API</mark> 개발
           - 서비스 시나리오 hard coding을 탈피하기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
           - 이 tool로 만들어진 <mark>시나리오 파일을 로딩</mark>하여 voice 서비스를 제공하는 시스템 개발
-          - Linux 및 Solaris 시스템에 대한 CPU/Memory/Disc/Network 사용률 등 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
+          - Linux와 Solaris에서 CPU/Memory/Disc/Network 사용률 등을 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
           - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
       - title: AGT
         sub_title: 게임로직 개발자
