@@ -101,7 +101,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        sub_title: 그동안 일해왔던 곳들입니다.
+        sub_title: 그동안 일했던 곳들입니다.
       - title: 텔코웨어
         sub_title: 서버 개발자, 프로젝트 리더
         caption: 2007.06 - present
