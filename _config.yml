@@ -92,9 +92,9 @@ content:
             - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: |
+          - TCP, UDP, IP Networking
+          - SIP, SDP, RTP/RTCP
           - ETSI NFV, 3GPP 5GC(~Rel.16)
-          - TCP, UDP, SCTP, IP Networking
-          - SIP, SDP, Diameter, RTP/RTCP
           - HTTP/1.x, HTTP/2
 
   - title: Experience
@@ -210,19 +210,23 @@ content:
           - <mark>개요</mark> IP기반 중개 호 처리 시스템
           - SIP stack interface process 개발
       - layout: left
-        title: MGCF/MG ( Media Gateway Control Function/Media Gateway )
+        title: 3GPP MGCF/MG
+        link: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1685
+        link_text: 3GPP TS 29.232
         caption: 2008.08 - 2010.04
         description: |
-          - <mark>개요</mark> 이종망 간 미디어 (변환) 게이트웨이 시스템
+          - <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 이종망 간 미디어 (변환) 게이트웨이 시스템
           - SIP stack interface process 개발
           - Service 처리 logic process 개발
       - layout: left
-        title: MRF ( Multimedia Resource Function )
+        title: 3GPP MRF
+        link: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1709
+        link_text: 3GPP TS 29.333
         caption: 2007.07 - 2009.12
         description: |
-          - <mark>개요</mark> IMS망에 안내방송, 회의통화 등 미디어 서비스 제공 시스템
-          - SIP stack interface process 개발
-          - Service 처리 logic process 개발
+          - <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 Play Announcement, Audio Conference, DTMF Collection 등 미디어 서비스 제공 시스템 구축
+          - SIP protocol interface process 설계 및 개발
+          - 미디어 서비스 요청 처리 logic process 설계 및 개발
       - layout: left
         title: IEEE DCD
         caption: 2007.08 - 2007.10
