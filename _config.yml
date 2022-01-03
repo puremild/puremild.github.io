@@ -169,7 +169,7 @@ content:
           - <mark>개요</mark> 이동통신 단말 제조사 및 서비스 사업자와 관계없는 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 기반 통합 메세징([Joyn](https://www.gsma.com/futurenetworks/wp-content/uploads/2013/01/SK-Telecom_Launches-Next-Generation-Integrated-Communication-Service-Named-joyn.T_final2-Press-Release.pdf)) 시스템 구축
           - 서비스 오픈을 목전에 두고 메인 프로세스에 지속적으로 크러쉬가 발생하는 문제가 해결되지 않아 <br>他팀 프로젝트였으나 긴급 투입되어
           - SIP 프로토콜로 Instant message를 수신하여 저장하고 Presence Service와 연동하여 메시지를 <br>타겟에 전송하는 모듈에 메모리 관리 버그를 찾아 수정하여 서비스 오픈 성공
-          - 이후 해당 모듈의 추가적인 기능 개발 및 maintenance 수행
+          - 이후 해당 모듈의 추가적인 기능 개발 및 유지보수 수행
       - layout: left
         title: NEAT 자동채점 시스템
         caption: 2012.04 - 2013.01
@@ -193,7 +193,7 @@ content:
         caption: 2011.01 - 2016.06
         description: |
           - <mark>개요</mark> 기업 고객들을 유치할 수 있는 기업 tenant형 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)기반 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
-          - 시스템 고도화 및 maintenance 수행
+          - 시스템 고도화 및 유지보수 수행
       - layout: left
         title: 콜센터 녹음시스템
         caption: 2007.08 - 2012.12
@@ -207,7 +207,7 @@ content:
         title: C4 Softswitch
         caption: 2010.05 - 2010.09
         description: |
-          - <mark>개요</mark> 범용 서버를 사용한 IP network 기반 중개 호 처리 시스템
+          - <mark>개요</mark> 범용 서버를 사용한 IP network 기반 중개 호 처리 시스템 유지보수
           - SIP protocol interface process 설계 및 개발
       - layout: left
         title: 3GPP MGCF/MG
@@ -215,7 +215,7 @@ content:
         link_text: 3GPP TS 29.232
         caption: 2008.08 - 2010.04
         description: |
-          - <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 이종망 간 미디어 (변환) 게이트웨이 시스템
+          - <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 이종망 간 미디어 (변환) 게이트웨이 시스템 유지보수
           - SIP protocol interface process 설계 및 개발
           - 미디어 변환 요청 처리 logic process 설계 및 개발
       - layout: left
