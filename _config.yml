@@ -195,11 +195,11 @@ content:
           - <mark>개요</mark> 기업 고객들을 유치할 수 있는 기업 tenant형 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)기반 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
           - 시스템 고도화 및 maintenance 수행
       - layout: left
-        title: CGVRS ( Carrier Grade Voice Recording System )
+        title: 콜센터 녹음시스템
         caption: 2007.08 - 2012.12
         description: |
-          - <mark>개요</mark> Call Center 통화 녹음 및 관리 시스템 구축
-          `- RTP packet capturing, IP encapsulation, 대용량 file I/O 설계 및 개발
+          - <mark>개요</mark> Carrier grade 콜센터 통화 녹음 및 관리 시스템 구축
+          - RTP packet capturing, IP encapsulation, 대용량 file I/O 설계 및 개발
           - 네트웍 인터페이스 이중화 설계 및 개발
           - Multicast를 위한 IGMP interface process 개발 
           - Service 처리 및 이중화, 자원관리 process 개발
@@ -207,7 +207,7 @@ content:
         title: C4 Softswitch
         caption: 2010.05 - 2010.09
         description: |
-          - <mark>개요</mark> 범용 서버와 IP network 기반 중개 호 처리 시스템
+          - <mark>개요</mark> 범용 서버를 사용한 IP network 기반 중개 호 처리 시스템
           - SIP protocol interface process 설계 및 개발
       - layout: left
         title: 3GPP MGCF/MG
