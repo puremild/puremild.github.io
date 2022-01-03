@@ -200,9 +200,9 @@ content:
         description: |
           - <mark>개요</mark> 콜센터의 모든 통화를 녹음하면서 실시간으로 음성데이터를 이중화하여 저장하는 시스템 구축
           - Raw socket을 사용하여 양방향 [RTP](https://datatracker.ietf.org/doc/html/rfc3550) packet을 Capturing 하는 기능 개발
-          - RTP packet을 저장 서버들에 Multicast를 사용하여 전송하는 기능 개발
+          - 녹음데이터 저장서버들에게 [RTP](https://datatracker.ietf.org/doc/html/rfc3550) packet을 Multicast로 전송하는 기능 개발
           - Multicast 채널 관리를 위해 [IGMP](https://datatracker.ietf.org/doc/html/rfc4604) protocol interface를 개발
-          - 저장 서버에서의 빈번한 disk access를 줄이기 위해 memory를 사용한 대용량 Buffering & Flushing 기능 개발
+          - 녹음데이터 저장서버에서의 빈번한 disk access를 줄이기 위해 memory를 사용한 대용량 Buffering & Flushing 기능 개발
       - layout: left
         title: C4 Softswitch
         caption: 2010.05 - 2010.09
