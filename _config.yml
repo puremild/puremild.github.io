@@ -55,7 +55,7 @@ about_content: |
   C/C++, Golang, Python / Linux, Kubernetes 기반의 Backend/System 개발자입니다.
   
   주로 유무선 통신망 사업자들에게 제공하는 솔루션을 개발하고 유지보수하는 업무를 했습니다.
-  대표적인 시스템으로는 `5G core의 Service mesh`, `Network function들의 Lifecycle 관리 및 모니터링 시스템`, `4G IMS에서 인스턴트 메시징` 및 `실시간 미디어 처리 시스템` 등이 있습니다.
+  대표적인 시스템으로는 `5G core의 Service mesh`, `Network function lifecycle management 시스템`, `4G IMS에서 인스턴트 메시징` 및 `실시간 media 처리 시스템` 등이 있습니다.
   
   현재는 팀 내에서 프로젝트 리더로써 `요구 분석 및 정의`, `시스템 아키텍처 설계`, `코어 파트 구현`, `테스트 및 검수`, `배포 패키지 및 프로젝트 산출물 작성` 등을 주요 업무로 하고 있습니다.
 
