@@ -296,9 +296,13 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: 수원대학교(원)
-        sub_title: Master and Bachelor of Computer Science
-        caption: 1993.03 - 2002.02
+        title: 수원대학교 대학원
+        sub_title: Master of Computer Science
+        caption: 2000.03 - 2002.02
+      - layout: top-middle
+        title: 수원대학교
+        sub_title: Bachelor of Computer Science
+        caption: 1993.03 - 2000.02
       - layout: top-middle
         title: 서울고등학교
         caption: 1990.03 - 1993.02
