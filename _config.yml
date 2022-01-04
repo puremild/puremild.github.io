@@ -12,15 +12,15 @@ email: podomat.ex@gmail.com
 email_title: email
 #phone: Your phone number (optional)
 #phone_title: Phone (Phone title override)
-#website: https://podomat.github.io
-#website_title: blog
+website: https://podomat.github.io
+website_title: blog
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-#github_username:  podomat
+github_username:  podomat
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
