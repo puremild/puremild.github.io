@@ -302,7 +302,7 @@ content:
       - layout: top-middle
         title: 정보처리기사
         sub_title: 1급
-        caption: 2001.12
+        #caption: 2001.12
 
 # Footer
 footer_show_references: true
