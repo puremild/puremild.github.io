@@ -11,16 +11,16 @@ title: Back-end Developer
 email: podomat.ex@gmail.com
 email_title: email
 #phone: Your phone number (optional)
-#phone_title: Phone (Phone title override)
-website: https://podomat.github.io
-website_title: blog
+# phone_title: Phone (Phone title override)
+#website: https://podomat.github.io
+#website_title: blog
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  podomat
+#github_username:  podomat
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -49,25 +49,16 @@ github_username:  podomat
 # google_analytics: "UA-00000000-0"
 
 # About Section
-#about_title: About Me (Use this to override about section title)
+# about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
-about_content: |
-  C/C++, Golang, Python / Linux, Kubernetes 기반의 Backend/System 개발자입니다.<br>
-  
-  주로 유무선 통신망 사업자들에게 제공하는 솔루션을 개발하고 유지보수하는 업무를 했습니다.
-  대표적인 시스템으로는 `5G core의 service mesh`, `VNF lifecycle 관리 시스템`, `4G IMS의 인스턴트 메시징` 및 `실시간 media 처리 시스템` 등이 있습니다.<br>
-  
-  현재는 팀 내에서 프로젝트 리더로써 `요구 분석 및 정의`, `시스템 아키텍처 설계`, 
-  `코어 파트 구현`, `테스트 및 검수`, `배포 패키지 및 프로젝트 산출물 작성` 등을 주요 업무로 하고 있습니다.<br>
+about_content: | # this will include new lines to allow paragraphs
+  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  프로젝트의 완성도를 높이는건 __실력과 의욕이 조화된 멤버들__, 그리고 이들의 프로젝트에 대한 __이해를 깊게 해주는 커뮤니케이션__ 이라고 생각합니다. 
-  그래서, `기술 세미나`, `설계 리뷰`, `코드 리뷰` 등을 진행하면서 멤버들과 함께 성장하는 것을 보람으로 여기고 있습니다.<br>
-
-  개발을 할 때는 이렇습니다.
-  - 코드는 군더더기 없이 간결하고 의미가 명확해야 하기에 변수명을 지을 때도 심사숙고합니다.
-  - 로직의 흐름이 빠르게 읽고 문제점을 파악할 수 있도록 깔끔하게 로그를 출력합니다.
-  - 라인 누락 없이 꼼꼼하고 반복적인 테스트를 위해 테스트 코드를 작성합니다.
-  - 동료들과 미래의 자신을 위해 코드의 동작, 설정의 의미, 예외 처리 등을 웹 기반 문서로 작성합니다.
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Skills
@@ -75,7 +66,7 @@ content:
     content:
       - layout: top-middle
         #title: Company name
-        sub_title: 그동안 업무에 사용했던 것들입니다.
+        sub_title: 업무용으로 사용했던 것들입니다.
       - title: Languages
         description: |
           - C/C++
@@ -101,9 +92,9 @@ content:
             - Jira, Confluence, Bitbucket, Redmine
       - title: Protocols/Specifications
         description: |
-          - TCP, UDP, IP Networking
-          - SIP, SDP, RTP/RTCP
           - ETSI NFV, 3GPP 5GC(~Rel.16)
+          - TCP, UDP, SCTP, IP Networking
+          - SIP, SDP, Diameter, RTP/RTCP
           - HTTP/1.x, HTTP/2
 
   - title: Experience
@@ -152,7 +143,7 @@ content:
         link_text: The service communication proxy
         caption: 2021.01 - present
         description: |
-          <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
+          - <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
           - Container 및 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
           - SCP 시스템을 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 deploy 하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
           - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
@@ -163,7 +154,7 @@ content:
         link: https://www.etsi.org/deliver/etsi_gs/nfv-man/001_099/001/01.01.01_60/gs_nfv-man001v010101p.pdf
         link_text: ETSI GS NFV-MAN 001 v1.1.1
         description: |
-          <mark>개요</mark> [NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 배포 관리(MANagement and Orchestration) 시스템 구축
+          - <mark>개요</mark> [NFV(Network Functions Virtualization)](https://www.etsi.org/technologies/nfv)를 위한 배포 관리(MANagement and Orchestration) 시스템 구축
           - [Openstack](https://www.openstack.org/)과 [Zabbix](https://www.zabbix.com/)를 기반으로 전체 시스템 Architecture 설계
           - Openstack 제어를 위한 인증([Keystone](https://www.openstack.org/software/releases/xena/components/keystone)), Compute([Nova](https://www.openstack.org/software/releases/xena/components/nova)), Networking([Neutron](https://www.openstack.org/software/releases/xena/components/neutron)) 프로젝트 연동을 위한 API 개발
           - VNF의 Instantiate, Scale, Terminate 등을 비롯한 다양한 Lifecycle Management Operation 기능 개발
@@ -175,15 +166,15 @@ content:
         link_text: Rich Communication Services
         caption: 2013.01 - 2013.12
         description: |
-          <mark>개요</mark> 이동통신 단말 제조사 및 서비스 사업자와 관계없는 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 기반 통합 메세징([Joyn](https://www.gsma.com/futurenetworks/wp-content/uploads/2013/01/SK-Telecom_Launches-Next-Generation-Integrated-Communication-Service-Named-joyn.T_final2-Press-Release.pdf)) 시스템 구축
+          - <mark>개요</mark> 이동통신 단말 제조사 및 서비스 사업자와 관계없는 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 기반 통합 메세징([Joyn](https://www.gsma.com/futurenetworks/wp-content/uploads/2013/01/SK-Telecom_Launches-Next-Generation-Integrated-Communication-Service-Named-joyn.T_final2-Press-Release.pdf)) 시스템 구축
           - 서비스 오픈을 목전에 두고 메인 프로세스에 지속적으로 크러쉬가 발생하는 문제가 해결되지 않아 <br>他팀 프로젝트였으나 긴급 투입되어
           - SIP 프로토콜로 Instant message를 수신하여 저장하고 Presence Service와 연동하여 메시지를 <br>타겟에 전송하는 모듈에 메모리 관리 버그를 찾아 수정하여 서비스 오픈 성공
-          - 이후 해당 모듈의 추가적인 기능 개발 및 유지보수 수행
+          - 이후 해당 모듈의 추가적인 기능 개발 및 maintenance 수행
       - layout: left
         title: NEAT 자동채점 시스템
         caption: 2012.04 - 2013.01
         description: |
-          <mark>개요</mark> NLP와 ML을 기반으로 NEAT(국가영어능력 평가시험) 자동채점 시스템 개발
+          - <mark>개요</mark> NLP와 ML을 기반으로 NEAT(국가영어능력 평가시험) 자동채점 시스템 개발
           - Machine learning 기반 Natural language processing 시스템 설계 및 개발
           - legacy 시스템 모듈화
       - layout: left
@@ -192,7 +183,7 @@ content:
         link_text: IP-Multimedia Subsystem
         caption: 2013.08 - 2014.08
         description: |
-          <mark>개요</mark> 유선통신 사업자의 legacy PSTN 시스템을 대체할 IMS 시스템 구축
+          - <mark>개요</mark> 유선통신 사업자의 legacy PSTN 시스템을 대체할 IMS 시스템 구축
           - [3GPP IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims) 표준 규격 및 고객 요구사항을 분석하고 표준 architecture에 부합하도록 서비스 구조 설계
           - 협력사간 컨소시엄 구조의 시스템에 대해 전체 서비스 측면의 성능시험 tool을 제작하였고
           - 위 tool을 통해 각 서비스 시나리오별 성능 bottleneck을 찾아 report 함으로써 부족했던 성능 시험 기준 통과
@@ -201,52 +192,48 @@ content:
         title: BizUC-AS
         caption: 2011.01 - 2016.06
         description: |
-          <mark>개요</mark> 기업 고객들을 유치할 수 있는 기업 tenant형 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)기반 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
-          - 시스템 고도화 및 유지보수 수행
+          - <mark>개요</mark> 기업 고객들을 유치할 수 있는 기업 tenant형 [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)기반 [UC(Unified Communication)](https://en.wikipedia.org/wiki/Unified_communications) 서비스 시스템 구축
+          - 시스템 고도화 및 maintenance 수행
       - layout: left
-        title: 콜센터 녹음시스템
+        title: CGVRS ( Carrier Grade Voice Recording System )
         caption: 2007.08 - 2012.12
         description: |
-          <mark>개요</mark> 콜센터의 모든 통화를 녹음하면서 실시간으로 음성데이터를 이중화하여 저장하는 시스템 구축
-          - Raw socket을 사용하여 양방향 [RTP](https://datatracker.ietf.org/doc/html/rfc3550) packet을 Capturing 하는 기능 개발
-          - 다수의 녹음데이터 저장서버들에게 [RTP](https://datatracker.ietf.org/doc/html/rfc3550) packet을 Multicast로 전송하는 기능 개발
-          - Multicast 채널 관리를 위해 [IGMP](https://datatracker.ietf.org/doc/html/rfc4604) protocol interface를 개발
-          - 녹음데이터 저장서버에서의 빈번한 disk access를 줄이기 위해 대용량 memory buffering & flushing 기능 개발
+          - <mark>개요</mark> Call Center 통화 녹음 및 관리 시스템 구축
+          - RTP packet capturing, IP encapsulation, 대용량 file I/O 개발
+          - 네트웍 인터페이스 이중화 설계 및 개발
+          - Multicast를 위한 IGMP interface process 개발 
+          - Service 처리 및 이중화, 자원관리 process 개발
       - layout: left
-        title: C4 Softswitch
+        title: C4SSW ( Class 4 SoftSwitch )
         caption: 2010.05 - 2010.09
         description: |
-          <mark>개요</mark> 범용 서버를 사용한 IP network 기반 중개 호 처리 시스템 유지보수
-          - SIP protocol interface process 설계 및 개발
+          - <mark>개요</mark> IP기반 중개 호 처리 시스템
+          - SIP stack interface process 개발
       - layout: left
-        title: 3GPP MGCF/MG
-        link: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1685
-        link_text: 3GPP TS 29.232
+        title: MGCF/MG ( Media Gateway Control Function/Media Gateway )
         caption: 2008.08 - 2010.04
         description: |
-          <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 이종망 간 미디어 (변환) 게이트웨이 시스템 유지보수
-          - SIP protocol interface process 설계 및 개발
-          - 미디어 변환 요청 처리 logic process 설계 및 개발
+          - <mark>개요</mark> 이종망 간 미디어 (변환) 게이트웨이 시스템
+          - SIP stack interface process 개발
+          - Service 처리 logic process 개발
       - layout: left
         title: 3GPP MRF
-        link: https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=1709
-        link_text: 3GPP TS 29.333
         caption: 2007.07 - 2009.12
         description: |
-          <mark>개요</mark> [IMS](https://www.3gpp.org/technologies/keywords-acronyms/109-ims)망에 Play Announcement, Audio Conference, DTMF Collection 등 미디어 서비스 제공 시스템 구축
-          - SIP protocol interface process 설계 및 개발
-          - 미디어 서비스 요청 처리 logic process 설계 및 개발
+          - <mark>개요</mark> IMS망에 안내방송, 회의통화 등 미디어 서비스 제공 시스템
+          - SIP stack interface process 개발
+          - Service 처리 logic process 개발
       - layout: left
         title: IEEE DCD
         caption: 2007.08 - 2007.10
         description: | 
-          <mark>개요</mark> 이동통신 가입자 단말을 대상으로 Dynamic [Contents Delivery](https://standards.ieee.org/standard/1903_1-2017.html) (Push message) 서비스 시스템 개발
+          - <mark>개요</mark> 이동통신 가입자 단말을 대상으로 Dynamic [Contents Delivery](https://standards.ieee.org/standard/1903_1-2017.html) (Push message) 서비스 시스템 개발
           - GIP 프로토콜 스택 및 Interface process 개발
       - layout: left
         title: 유무선 통합 SMS Center
         caption: 2005.09 - 2007.03
         description: | 
-          <mark>개요</mark> 유무선 전화망 통합 SMS 저장 및 전달 시스템 구축
+          - <mark>개요</mark> 유무선 전화망 통합 SMS 저장 및 전달 시스템 구축
           - 발신자의 메시지를 수신하여 DB에 저장하고, 착신자의 정보를 조회하여 메시지 라우팅하며,
           - 착신 결과에 대한 notification 처리 및 전송 실패시 재전송 처리까지 전반적인 서비스 로직 설계 및 개발
           - HLR, NPDB, VSMSS 등 SMS 송수신 절차에 필요한 외부 시스템의 연동 프로토콜을 분석하고 interface 모듈 설계 및 개발
@@ -255,7 +242,7 @@ content:
         title: 지능망 Service Node
         caption: 2004.12 - 2007.03
         description: |
-          <mark>개요</mark> 전화망 가입자에게 voice(음성) 서비스를 제공하는 지능망([Intelligent Network](https://en.wikipedia.org/wiki/Intelligent_Network)) Service Node 시스템 구축
+          - <mark>개요</mark> 전화망 가입자에게 voice(음성) 서비스를 제공하는 지능망([Intelligent Network](https://en.wikipedia.org/wiki/Intelligent_Network)) Service Node 시스템 구축
           - voice 서비스 시나리오를 작성하는 GUI tool과 이 tool의 output이 될 시나리오 파일 포맷을 설계하고,
           - 작성한 시나리오 파일을 업로드 및 로딩하여 실행하는 'voice 시나리오 실행 환경' 시스템 설계 및 개발
           - 위 GUI tool을 사용하여 여러 voice 서비스 시나리오 개발 (회의통화, 영어학습, 웹투폰 등)
@@ -264,55 +251,50 @@ content:
         title: Voice Board General Interface
         caption: 2003.10 - 2004.04
         description: | 
-          <mark>개요</mark> Conference Call 등 전화 서비스를 위한 실시간 음성 합성(mixing) 서비스 시스템 개발
+          - <mark>개요</mark> Conference Call 등 전화 서비스를 위한 실시간 음성 합성(mixing) 서비스 시스템 개발
           - [NMS voice board](https://www.artisantg.com/TestMeasurement/67904-1/NMS-Communications-CG6500C-High-Density-PSTN-VoIP-and-Voice-Processing-Platform)(H/W)의 기능을 application에서 편리하게 사용할 수 있도록 H/W SDK에 대한 wrapping library 개발
       - layout: left
         title: 지능형 부가장치
         caption: 2003.01 - 2003.06
         description: |
-          <mark>개요</mark> 무선통신망 가입자들을 위한 부가 서비스 제공하는 IP(Intelligence Peripheral) 시스템 개발
+          - <mark>개요</mark> 무선통신망 가입자들을 위한 부가 서비스 제공하는 IP(Intelligence Peripheral) 시스템 개발
           - Network을 통해 ASR/TTS 서비스를 제공하는 Server 시스템을 설계하고
           - [NMS voice board](https://www.artisantg.com/TestMeasurement/67904-1/NMS-Communications-CG6500C-High-Density-PSTN-VoIP-and-Voice-Processing-Platform)(H/W)와 이를 제어하기 위한 SDK를 사용하여 개발
       - layout: left
         title: 전시영상 시스템
         caption: 2002.01 - 2002.05
         description: |
-          <mark>개요</mark> 다수의 디스플레이를 네트웍으로 연결하여 단일 디스플레이처럼 보여주는 대형 전시 영상 시스템 개발
+          - <mark>개요</mark> 다수의 디스플레이를 네트웍으로 연결하여 단일 디스플레이처럼 보여주는 대형 전시 영상 시스템 개발
           - 멀티모니터에 대한 출력 및 이벤트 수신을 위한 클라이언트/서버 통신 모듈 개발
       - layout: left
         title: 화상키보드
         caption: 2001.09 - 2001.10
         description: |
-          <mark>개요</mark> 의료장비를 위한 터치스크린用 화상키보드 개발
+          - <mark>개요</mark> 의료장비를 위한 터치스크린用 화상키보드 개발
           - 1인 프로젝트로 설계, 디자인, 개발 진행.
       - layout: left
         title: WEB용 캐주얼 게임
         caption: 2001.07 - 2001.12
         description: |
-          <mark>개요</mark> 모 포털사이트에서 플레이 할 수 있는 캐주얼 게임 개발
+          - <mark>개요</mark> 모 포털사이트에서 플레이 할 수 있는 캐주얼 게임 개발
           - Network 게임을 위한 게임방 채팅 시스템 개발
           - Network 게임(포커, 오목, 오셀로)에 관한 승패 판단 로직 개발
   - title: Education
     layout: list
     content:
       - layout: top-middle
-        title: 수원대학교 대학원
-        sub_title: Master of Computer Science
-        caption: 2000.03 - 2002.02
-      - layout: top-middle
-        title: 수원대학교
-        sub_title: Bachelor of Computer Science
-        caption: 1993.03 - 2000.02
+        title: 수원대학교(원)
+        sub_title: Master and Bachelor of Computer Science
+        caption: 1993.03 - 2002.02
       - layout: top-middle
         title: 서울고등학교
         caption: 1990.03 - 1993.02
-  - title: Certificate
-    layout: list
-    content:
-      - layout: top-middle
-        title: 정보처리기사
-        sub_title: 1급
-        #caption: 2001.12
+  - title: A Little More About Me
+    layout: text
+    content: |
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
