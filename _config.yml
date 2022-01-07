@@ -59,8 +59,10 @@ about_content: |
   
   현재는 팀 내에서 프로젝트 리더로써 `요구 분석 및 정의`, `시스템 아키텍처 설계`, 
   `코어 파트 구현`, `테스트 및 검수`, `배포 패키지 및 프로젝트 산출물 작성` 등을 주요 업무로 하고 있습니다.<br>
+
   프로젝트의 완성도를 높이는건 __실력과 의욕이 조화된 멤버들__, 그리고 이들의 프로젝트에 대한 __이해를 깊게 해주는 커뮤니케이션__ 이라고 생각합니다. 
   그래서, `기술 세미나`, `설계 리뷰`, `코드 리뷰`, `장애 리뷰` 등을 진행하면서 멤버들과 함께 성장하는 것을 보람으로 여기고 있습니다.<br>
+
   개발을 할 때는 이렇습니다.
   - 요구사항이나 문제점을 군더더기 없이 명확하고 논리적인 언어로 정리합니다.
   - 코드를 작성하기 전에 시스템 아키텍처와 소프트웨어 구조 설계합니다.
@@ -68,6 +70,7 @@ about_content: |
   - 로그는 흐름을 빠르게 읽고 문제점을 파악할 수 있도록 시각적으로 깔끔하고 내용이 충분하도록 출력합니다.
   - 라인 누락 없이 꼼꼼하고 반복적인 테스트를 위해 테스트 코드를 작성합니다.
   - 동료들과 미래의 자신을 위해 코드의 동작, 설정의 의미, 예외 처리 등을 웹 기반 문서로 작성합니다.
+
 content:
   - title: Skills
     layout: list
@@ -151,8 +154,8 @@ content:
         caption: 2021.01 - present
         description: |
           <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
-          - Container 및 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
-          - SCP 시스템을 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 deploy 하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
+          - 기본 Mesh controller로 [Istio](https://istio.io/)/[Envoyproxy](https://www.envoyproxy.io/)를 도입하고 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
+          - 배포 및 인스턴스 관리를 위한 CRD를 정의하고, [Operator SDK](https://sdk.operatorframework.io/)를 사용하여 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 배포를 관리하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
           - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
           - Release-15 Network Function에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
       - layout: left
