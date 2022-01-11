@@ -114,7 +114,7 @@ content:
       - layout: top-middle
         sub_title: 그동안 일했던 곳들입니다.
       - title: 텔코웨어
-        sub_title: 서버 개발자, 프로젝트 리더
+        sub_title: 서버 개발자, 프로젝트 리더<br>네크워크 사업본부
         caption: 2007.06 - present
         link: http://telcoware.com/
         description: |
@@ -125,7 +125,7 @@ content:
           - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발을 수행, 높은 KPI달성으로 연말평가에서 <mark>우수사원</mark> 2회 수상
           - 치명적인 버그 및 구조적 이슈로 인해 오픈이 지연된 프로젝트에 긴급 투입되어 **핵심이 되는 문제점들을 정리하고 이것들을 끈질기게 해결하고** 서비스 오픈 완료 경험 2회
       - title: 디노밴
-        sub_title: 서버 개발자
+        sub_title: 서버 개발자<br>정보통신연구소
         caption: 2002.07 - 2007.06
         link: http://www.dinnovan.com/
         description: |
@@ -136,7 +136,7 @@ content:
           - Linux와 Solaris에서 CPU/Memory/Disc/Network 사용률 등을 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
           - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
       - title: AGT
-        sub_title: 게임로직 개발자
+        sub_title: 게임로직 개발자<br>가상현실연구소
         caption: 2001.07 - 2002.05
         description: |
           - 동사는 멀티 모니터를 이용한 전시영상 시스템 개발을 목표로 설립되었으며 네트워크 게임 또한 개발하였음
