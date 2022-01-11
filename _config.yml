@@ -114,11 +114,12 @@ content:
       - layout: top-middle
         sub_title: 그동안 일했던 곳들입니다.
       - title: 텔코웨어
-        sub_title: 서버 개발자, 프로젝트 리더<br>네크워크 사업본부
+        sub_title: 네크워크 사업본부<br>서버 개발자, 프로젝트 리더
         caption: 2007.06 - present
         link: http://telcoware.com/
         description: |
           이 화사는 이동통신서비스를 위한 CN(Core Network) 분야에서 다양한 솔루션을 개발하고 있음
+
           주된 수행 업무:
           - <mark>10개 이상</mark>의 솔루션 개발에서 프로젝트 리더로써 참여하여 **GA 버전 개발 및 상용화** 완료
           - 프로젝트 시작 단계에서 고객사와 미팅을 통해 니즈를 분석하여 요구사항을 정리하고
@@ -126,11 +127,12 @@ content:
           - 각 프로젝트에서 프로젝트 리딩과 동시에 주요 모듈 개발을 수행, 높은 KPI달성으로 연말평가에서 <mark>우수사원</mark> 2회 수상
           - 치명적인 버그 및 구조적 이슈로 인해 오픈이 지연된 프로젝트에 긴급 투입되어 **핵심이 되는 문제점들을 정리하고 이것들을 끈질기게 해결하고** 서비스 오픈 완료 경험 2회
       - title: 디노밴
-        sub_title: 서버 개발자<br>정보통신연구소
+        sub_title: 정보통신연구소<br>서버 개발자
         caption: 2002.07 - 2007.06
         link: http://www.dinnovan.com/
         description: |
           이 회사는 유무선 통합 통신 및 메시징 솔루션을 개발하며 주력 제품은 Telephony A/S, Media Server, SMS Center 등이 있음
+
           주된 수행 업무:
           - 하드웨어 음성보드를 제어하여 회의통화 및 안내방송 등의 음성(voice) 서비스를 구현할 수 있도록 하는 <mark>API</mark> 개발
           - 서비스 시나리오 hard coding을 탈피하기 위해 voice 서비스 시나리오를 작성하는 tool을 설계하고
@@ -138,10 +140,11 @@ content:
           - Linux와 Solaris에서 CPU/Memory/Disc/Network 사용률 등을 H/W 모니터링하여 통계 및 알람을 생성하는 기능 개발
           - C/S Interworking을 위한 IO Multiplexing을 callback 구조의 <mark>framework</mark> 으로 개발하여 사내 개발자들에게 배포
       - title: AGT
-        sub_title: 게임로직 개발자<br>가상현실연구소
+        sub_title: 가상현실연구소<br>게임로직 개발자
         caption: 2001.07 - 2002.05
         description: |
           이 회사는 멀티 모니터를 이용한 전시영상 시스템 개발을 목표로 설립되었으며 네트워크 게임 또한 개발하였음
+
           주된 수행 업무:
           - 네트워크 보드게임(포커, 오목, 오셀로 등)의 승패판단 로직 개발
           - 멀티 모니터 제어를 위한 C/S 통신 모듈 개발
