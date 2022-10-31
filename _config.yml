@@ -94,7 +94,7 @@ content:
             - MariaDB/Mysql, Oracle, Altibase
           - Cloud
             - Kubernetes, Docker, Helm
-            - Istio/Envoy, Nats, Harbor
+            - Istio/Envoy, RabbitMq, Nats, Harbor
             - Openstack
           - Version Control
             - Git, Subversion, CVS
@@ -105,7 +105,7 @@ content:
       - title: Protocols/Specifications
         description: |
           - TCP, UDP, IP Networking
-          - SIP, SDP, RTP/RTCP
+          - SIP, SDP, RTP/RTCP, Diameter
           - ETSI NFV, 3GPP 5GC(~Rel.16)
           - HTTP/1.x, HTTP/2
   - title: Experience
@@ -154,6 +154,28 @@ content:
     content:
       - layout: top-middle
         sub_title: 그동안 해왔던 일들입니다.
+      - layout: left
+        title: Kubernetes Cluster Manager
+        link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
+        link_text: The service communication proxy
+        caption: 2022.10 - present
+        description: |
+          <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
+          - 기본 Mesh controller로 [Istio](https://istio.io/)/[Envoyproxy](https://www.envoyproxy.io/)를 도입하고 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
+          - 배포 및 인스턴스 관리를 위한 CRD를 정의하고, [Operator SDK](https://sdk.operatorframework.io/)를 사용하여 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 배포를 관리하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
+          - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
+          - Release-15 Network Function에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
+      - layout: left
+        title: Diameter Stack
+        link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
+        link_text: The service communication proxy
+        caption: 2022.01 - present
+        description: |
+          <mark>개요</mark> 5G core network의 Service Mesh 기능을 수행하는 SCP 및 NRF 시스템 구축
+          - 기본 Mesh controller로 [Istio](https://istio.io/)/[Envoyproxy](https://www.envoyproxy.io/)를 도입하고 [Microservice Architecture](https://microservices.io/)를 기반으로 전체 시스템 구조를 설계
+          - 배포 및 인스턴스 관리를 위한 CRD를 정의하고, [Operator SDK](https://sdk.operatorframework.io/)를 사용하여 [Custom Resource](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 형태로 배포를 관리하는 [Kubernetes Operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/)를 개발
+          - Network Function이 deploy 될 때 sidecar injection 및 label 설정을 위한 [Mutating admission controller](https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/) 개발
+          - Release-15 Network Function에게 NRF 서비스를 제공하기 위한 proxy 인터페이스 기능 개발
       - layout: left
         title: 3GPP 5GC SCP
         link: https://www.metaswitch.com/blog/the-service-communication-proxy-5g-caught-up-in-a-service-mesh
